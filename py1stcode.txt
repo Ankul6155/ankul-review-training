@@ -1,4 +1,4 @@
-def factorial(num):
+def factorial(num):      # calculating factorial
     if num >= 1:
         factorial = 1 
         while(num >= 1):
@@ -10,11 +10,11 @@ def factorial(num):
     else:
         print ("factorial is not defined for negative or decimels number")
 
-def square(num1):
+def square(num1):           ## calculating square
     sqr = num1 * num1
     return sqr
 
-def qube(num1):
+def qube(num1):              ##  calculating qube
     qub = num1 ** 3
     return qub
 number = int(input("enter an integer"))
