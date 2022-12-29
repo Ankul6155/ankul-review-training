@@ -1,0 +1,27 @@
+def factorial(num):
+    if num >= 1:
+        factorial = 1 
+        while(num >= 1):
+            factorial = factorial * num
+            num = num - 1 
+        return factorial
+    elif num == 0:
+        return 1 
+    else:
+        print ("factorial is not defined for negative or decimels number")
+
+def square(num1):
+    sqr = num1 * num1
+    return sqr
+
+def qube(num1):
+    qub = num1 ** 3
+    return qub
+number = int(input("enter an integer"))
+number1 = float(input("enter double number"))
+result = factorial(number)
+print("factorial of ", number, "is:", result)
+result1 = square(number1)
+print("square of ", number1, "is:", result1)
+result2 = qube(number1)
+print("qube of ", number1, "is:", result2)
